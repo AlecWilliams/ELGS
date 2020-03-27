@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="..\ext\glad\src\glad.c">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSL.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
+    <ClCompile Include="MatrixStack.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="findpath.cpp" />
+    <ClCompile Include="fonts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="GLSL.h" />
+    <ClInclude Include="WindowManager.h" />
+    <ClInclude Include="MatrixStack.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="findpath.h" />
+    <ClInclude Include="fonts.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ext">
+      <UniqueIdentifier>{a1735e5b-c01d-45eb-b937-869f0ba27591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{aaeda296-8026-4cfa-be5a-0858242a50f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\lines_geometry.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\lines_height_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\lines_height_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\plane_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\plane_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\shader_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\shader_vertex.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\line_fragment.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\line_vertex .glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
