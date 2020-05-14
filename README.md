@@ -2,7 +2,7 @@ Emergency Landing Guidance Software (ENGLS)
 
 Created by: Alec Williams, Christian Eckhardt
 
-![Image of Yaktocat](https://octodex.github.com/images/ELGS.png)
+![Image of ELGS](https://github.com/AlecWilliams/ELGS/blob/master/ELGS.PNG)
 
 
 
