@@ -1,6 +1,6 @@
 Emergency Landing Guidance Software (ENGLS)
 
-Created by: Alec Williams, Christian Eckhardt
+Created by: Alec Williams
 
 ![Image of ELGS](https://github.com/AlecWilliams/ELGS/blob/master/ELGS.PNG)
 
