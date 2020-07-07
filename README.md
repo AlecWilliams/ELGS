@@ -1,4 +1,4 @@
-Emergency Landing Guidance Software (ENGLS)
+Emergency Landing Guidance Software (ELGS)
 
 Created by: Alec Williams
 
