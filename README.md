@@ -12,9 +12,12 @@ The project of analyzing satellite imagery to create and store potential landing
 ## The Process
 Once the satellite imagery has been analyzed, the result is a black image with possible landing zones in green. Zones that need to be approached at a certain angle are a slightly different shade of green. This due to the fact that I used the blue value in the RGB for each pixel in the zone to store the angle of approach needed. This information is used later on when calculating possible landing paths in each zone.
 
+![Image of landing zones](https://github.com/AlecWilliams/ELGS/blob/master/Tex.png)
+
 
 A flood fill algorithm is then run on the image giving the exact size and shape of each zone stored as pixel coordinates in a vector. With this information the program can then calculate possible lading paths in each zone that are at least the minimum landing distance required for a small aircraft. These paths are then stored in a vector to be used later. Below is an example image of the possible landing paths calculated from the landing zones.
 
+![Image of landing paths](https://github.com/AlecWilliams/ELGS/blob/master/output.png)
 
 
 With all possible landing paths known, we can calculate the optimal three paths in real time and display them. The path is updated as the plane moves and once in landing mode the program will redirect the aircraft if it strays too far from its current landing path. If the path is followed, the plane should reach an elevation of 0 right at the start of the landing zone.
