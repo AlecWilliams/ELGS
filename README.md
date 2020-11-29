@@ -5,7 +5,7 @@ Created by: Alec Williams
 ![Image of ELGS](https://github.com/AlecWilliams/ELGS/blob/master/ELGS.PNG)
 
 ## The Idea
-The purpose of this project is to provide pilots with a system that can safely analyse and calculate a landing path to bring the aircraft down. With the aircraft's gliding ratio and GPS data such as elevation and velocity, we can calculate the maximum possible range the aircraft has in the case of engine failure. Using that information and a database of pre-analyzed satellite imagery, we can determine the optimal path for the aircraft to follow so that it touches down on even and safe terrain.
+The purpose of this project is to provide pilots with a system that can safely analyze and calculate a landing path to bring the aircraft down. With the aircraft's gliding ratio and GPS data such as elevation and velocity, we can calculate the maximum possible range the aircraft has in the case of engine failure. Using that information and a database of pre-analyzed satellite imagery, we can determine the optimal path for the aircraft to follow so that it touches down on even and safe terrain.
 
 The project of analyzing satellite imagery to create and store potential landing zones is still under development, so for the sake of this project I manually went over several images of San Luis Obispo and created possible landing zones by hand. Zones marked with zig zag lines are landig zones where an aircraft must approach at a certain angle due to terrain features such as rows on farm fields. For this demonstration, I only marked a few zones as such.
 
